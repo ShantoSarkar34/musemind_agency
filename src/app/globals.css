@@ -10,34 +10,30 @@
   scrollbar-color: #101010 white;
 }
 
-
 /* header stction start  */
-.btn_main{
+.btn_main {
   transition: transform 0.3s ease;
 }
 
-.btn_main:hover  .btn_content{
+.btn_main:hover .btn_content {
   transform: translateX(40px);
-
 }
-.btn_main:hover .icon{
+.btn_main:hover .icon {
   opacity: 1;
   rotate: 45deg;
 }
-
 
 /* hero section start  */
 
-.all_btn_main_{
+.all_btn_main_ {
   transition: transform 0.3s ease;
 }
 
-.all_btn_main:hover  .all_btn_content {
+.all_btn_main:hover .all_btn_content {
   transform: translateX(52px);
 }
 
-.all_btn_main:hover .all_icon{
+.all_btn_main:hover .all_icon {
   opacity: 1;
   rotate: 45deg;
 }
-
