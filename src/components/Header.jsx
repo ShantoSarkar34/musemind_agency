@@ -54,7 +54,7 @@ export default function Header() {
         smooth={true}
         offset={-70}
         duration={500}
-        className=" text-[#231f1e] text-[22px]  lg:text-[16px] leading-[24px] font-medium tracking-[0.01em] cursor-pointer hover:text-third transition-all duration-200 flex items-center gap-2 justify-center"
+        className=" text-[#231f1e] text-[22px]  lg:text-[16px] leading-[24px] font-medium tracking-[0.01em] lg:tracking-[0em] cursor-pointer hover:text-third transition-all duration-200 flex items-center gap-2 justify-center"
       >
         <p>Service</p>
         <div className="bg-white rounded-full ">
@@ -68,7 +68,7 @@ export default function Header() {
         smooth={true}
         offset={-70}
         duration={500}
-        className=" text-black text-[22px]  lg:text-[16px] leading-[24px] font-medium tracking-[0.01em] cursor-pointer hover:text-third transition-all duration-200"
+        className=" text-black text-[22px]  lg:text-[16px] leading-[24px] font-medium tracking-[0.01em] lg:tracking-[0em] cursor-pointer hover:text-third transition-all duration-200"
       >
         <p>About us</p>
       </Link>
@@ -79,7 +79,7 @@ export default function Header() {
         smooth={true}
         offset={-70}
         duration={500}
-        className=" text-black text-[22px]  lg:text-[16px] leading-[24px] font-medium tracking-[0.01em] cursor-pointer hover:text-third transition-all duration-200"
+        className=" text-black text-[22px]  lg:text-[16px] leading-[24px] font-medium tracking-[0.01em] lg:tracking-[0em] cursor-pointer hover:text-third transition-all duration-200"
       >
         <p>Work</p>
       </Link>
@@ -90,7 +90,7 @@ export default function Header() {
         smooth={true}
         offset={-70}
         duration={500}
-        className=" text-black text-[22px]  lg:text-[16px] leading-[24px] font-medium tracking-[0.01em] cursor-pointer hover:text-third transition-all duration-200"
+        className=" text-black text-[22px]  lg:text-[16px] leading-[24px] font-medium tracking-[0.01em] lg:tracking-[0em] cursor-pointer hover:text-third transition-all duration-200"
       >
         <p>Our Process</p>
       </Link>
@@ -101,7 +101,7 @@ export default function Header() {
         smooth={true}
         offset={-70}
         duration={500}
-        className=" text-black text-[22px]  lg:text-[16px] leading-[24px] font-medium tracking-[0.01em] cursor-pointer hover:text-third transition-all duration-200"
+        className=" text-black text-[22px]  lg:text-[16px] leading-[24px] font-medium tracking-[0.01em] lg:tracking-[0em] cursor-pointer hover:text-third transition-all duration-200"
       >
         <p>Career</p>
       </Link>
@@ -112,7 +112,7 @@ export default function Header() {
         smooth={true}
         offset={-70}
         duration={500}
-        className=" text-black text-[22px]  lg:text-[16px] leading-[24px] font-medium tracking-[0.01em] cursor-pointer hover:text-third transition-all duration-200"
+        className=" text-black text-[22px]  lg:text-[16px] leading-[24px] font-medium tracking-[0.01em] lg:tracking-[0em] cursor-pointer hover:text-third transition-all duration-200"
       >
         <p>Blog</p>
       </Link>
