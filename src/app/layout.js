@@ -4,7 +4,7 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Cloned by Shanto",
+  title: "Cloned by | Shanto Sarkar",
   description: "This site is cloned by- Md Shanto Sarkar",
 };
 

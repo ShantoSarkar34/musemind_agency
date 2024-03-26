@@ -2,6 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scrollbar-width: thin;
+  scrollbar-color: #101010 white;
+}
+
+
 /* header stction start  */
 .btn_main{
   transition: transform 0.3s ease;
