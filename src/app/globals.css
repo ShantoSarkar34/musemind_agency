@@ -57,8 +57,19 @@ video.wb-video-styles-controller {
   align-items: center;
 }
 
- video {
+video {
   vertical-align: baseline;
   display: inline-block;
 }
 
+.about_link:hover .main_icon_div .icon_yellow {
+  transform: translateY(40px);
+}
+
+.about_link .icon_white {
+  visibility: hidden;
+}
+.about_link:hover .icon_white {
+  visibility: visible;
+  transform: translateY(40px);
+}
