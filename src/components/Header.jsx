@@ -63,7 +63,7 @@ export default function Header() {
       </Link>
       <Link
         activeClass="active"
-        to="service"
+        to="about"
         spy={true}
         smooth={true}
         offset={-70}

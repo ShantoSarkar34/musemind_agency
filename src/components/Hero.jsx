@@ -7,7 +7,7 @@ import { GoArrowRight } from "react-icons/go";
 
 const Hero = () => {
   return (
-    <section className="bg-[#D6DCE1] w-full pb-20 relative ">
+    <section className="bg-[#D6DCE1] w-full pb-[84px] relative ">
       <div className=" absolute  max-w-[740px] text-right top-[0%] bottom-auto left-auto right-[0%] z-[1]">
         <video
           rel="preload"
