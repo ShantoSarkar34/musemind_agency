@@ -122,7 +122,7 @@ export default function Header() {
   return (
     <Navbar
       id="header"
-      className={`bg- w-full py-3 lg:py-5  transition-all duration-300 fixed shadow-none  z-50 max-w-full rounded-none border-none${
+      className={`bg- w-full py-3 lg:py-5 border-none transition-all duration-300 fixed shadow-none  z-50 max-w-full rounded-none${
         scroll ? " bg-bg shadow-sm" : "bg-transparent"
       }`}
     >
@@ -183,7 +183,7 @@ export default function Header() {
                 Contact us
               </h5>
               <div className="bg-secondery p-3 rounded-full icon z-[-5] transition-all duration-200">
-                <GoArrowRight className="rotate-[-45deg]" />
+                <GoArrowRight className="rotate-[-45deg] text-primary" />
               </div>
             </Link>
           </div>

@@ -88,7 +88,7 @@ const About = () => {
             <div className="image_1">
               <Link href={"#"} className="flex flex-col gap-8 about_link">
                 <div className="relative">
-                  <div className="overflow-hidden bg-cover relative hover:-skew-y-2 transition-all duration-300">
+                  <div className="overflow-hidden bg-cover relative  transition-all duration-200 case-studies-thumbnail-block">
                     <Image
                       src={about_img_1}
                       alt="about_img"
@@ -118,7 +118,7 @@ const About = () => {
             <div className="image_2">
               <Link href={"#"} className="flex flex-col gap-8 about_link">
                 <div className="relative ">
-                  <div className="overflow-hidden bg-cover relative hover:-skew-y-2 transition-all duration-300">
+                  <div className="overflow-hidden bg-cover relative  transition-all duration-200 case-studies-thumbnail-block">
                     <Image
                       src={about_img_2}
                       alt="about_img"
@@ -148,7 +148,7 @@ const About = () => {
             <div className="image_3">
               <Link href={"#"} className="flex flex-col gap-8 about_link">
                 <div className="relative ">
-                  <div className="overflow-hidden bg-cover relative hover:-skew-y-2 transition-all duration-300">
+                  <div className="overflow-hidden bg-cover relative  transition-all duration-200 case-studies-thumbnail-block">
                     <Image
                       src={about_img_3}
                       alt="about_img"
@@ -178,7 +178,7 @@ const About = () => {
             <div className="image_4">
               <Link href={"#"} className="flex flex-col gap-8 about_link">
                 <div className="relative ">
-                  <div className="overflow-hidden bg-cover relative hover:-skew-y-2 transition-all duration-300">
+                  <div className="overflow-hidden bg-cover relative  transition-all duration-200 case-studies-thumbnail-block">
                     <Image
                       src={about_img_4}
                       alt="about_img"
@@ -208,7 +208,7 @@ const About = () => {
             <div className="image_5">
               <Link href={"#"} className="flex flex-col gap-8 about_link">
                 <div className="relative ">
-                  <div className="overflow-hidden bg-cover relative hover:-skew-y-2 transition-all duration-300">
+                  <div className="overflow-hidden bg-cover relative  transition-all duration-200 case-studies-thumbnail-block">
                     <Image
                       src={about_img_5}
                       alt="about_img"
@@ -238,7 +238,7 @@ const About = () => {
             <div className="image_6">
               <Link href={"#"} className="flex flex-col gap-8 about_link">
                 <div className="relative ">
-                  <div className="overflow-hidden bg-cover relative hover:-skew-y-2 transition-all duration-300">
+                  <div className="overflow-hidden bg-cover relative  transition-all duration-200 case-studies-thumbnail-block">
                     <Image
                       src={about_img_6}
                       alt="about_img"
@@ -268,7 +268,7 @@ const About = () => {
             <div className="image_7">
               <Link href={"#"} className="flex flex-col gap-8 about_link">
                 <div className="relative ">
-                  <div className="overflow-hidden bg-cover relative hover:-skew-y-2 transition-all duration-300">
+                  <div className="overflow-hidden bg-cover relative  transition-all duration-200 case-studies-thumbnail-block">
                     <Image
                       src={about_img_7}
                       alt="about_img"
@@ -298,7 +298,7 @@ const About = () => {
             <div className="image_8">
               <Link href={"#"} className="flex flex-col gap-8 about_link">
                 <div className="relative ">
-                  <div className="overflow-hidden bg-cover relative hover:-skew-y-2 transition-all duration-300">
+                  <div className="overflow-hidden bg-cover relative  transition-all duration-200 case-studies-thumbnail-block">
                     <Image
                       src={about_img_8}
                       alt="about_img"
@@ -328,7 +328,7 @@ const About = () => {
             <div className="image_9">
               <Link href={"#"} className="flex flex-col gap-8 about_link">
                 <div className="relative ">
-                  <div className="overflow-hidden bg-cover relative hover:-skew-y-2 transition-all duration-300">
+                  <div className="overflow-hidden bg-cover relative  transition-all duration-200 case-studies-thumbnail-block">
                     <Image
                       src={about_img_9}
                       alt="about_img"
@@ -358,7 +358,7 @@ const About = () => {
             <div className="image_10">
               <Link href={"#"} className="flex flex-col gap-8 about_link">
                 <div className="relative ">
-                  <div className="overflow-hidden bg-cover relative hover:-skew-y-2 transition-all duration-300">
+                  <div className="overflow-hidden bg-cover relative  transition-all duration-200 case-studies-thumbnail-block">
                     <Image
                       src={about_img_10}
                       alt="about_img"
