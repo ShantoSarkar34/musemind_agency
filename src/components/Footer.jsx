@@ -26,11 +26,11 @@ const Footer = () => {
         <div className="pb-[40px] grid grid-cols-3 gap-x-8 gap-y-14 md:grid-cols-5 lg:grid-cols-6">
           <div className="col-span-2 flex flex-col gap-6 md:col-span-3 lg:col-span-4">
             <Image src={footer_logo} alt="logo" className="w-[9rem]" />
-            <p className="pt-2 text-[16px] leading-[24px] text-[#bbbbb9] max-w-[499.062px]">
+            <p className="pt-2 lg:pt-0 text-[16px] leading-[24px] text-[#bbbbb9] max-w-[499.062px]">
               An Experience Design Agency focusing on building functional,
               simple, human-centered digital products for future.
             </p>
-            <div className="flex">
+            <div className="flex lg:pt-7">
               <Link href="#" className="flex items-center btn_main">
                 <h5 className="text-[16px] bg-secondery leading-[24px] font-semibold text-primary  py-[10px] px-6 rounded-[100px] tracking-[0.005em] transition-all duration-300 btn_content z-[5]">
                   Contact us
@@ -238,8 +238,8 @@ const Footer = () => {
               </Link>
             </div>
           </div>
-          <div className="pt-8  lg:pt-0 flex items-center gap-1">
-            <p className=" text-third text-[15px] font-normal leading-[100%]">
+          <div className="pt-8  lg:pt-0 flex flex-col items-center md:flex-row md:items-center gap-1 ">
+            <p className="text-center text-third text-[15px] font-normal leading-[120%] px-2 md:px-0">
               {" "}
               Copyright © Musemind, 2024. Website Developed by{" "}
             </p>
