@@ -5,6 +5,7 @@ import Hero from "@/components/Hero";
 import About from "@/components/About";
 import Weare from "@/components/Weare";
 import Footer from "@/components/Footer";
+import WeOffer from "@/components/WeOffer";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       <Hero />
       <About />
       <Weare/>
+      <WeOffer/>
       <Footer/>
     </>
   );
