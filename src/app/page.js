@@ -6,6 +6,7 @@ import About from "@/components/About";
 import Weare from "@/components/Weare";
 import Footer from "@/components/Footer";
 import WeOffer from "@/components/WeOffer";
+import Blog from "@/components/Blog";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
       <About />
       <Weare/>
       <WeOffer/>
+      <Blog/>
       <Footer/>
     </>
   );
