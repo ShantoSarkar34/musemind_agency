@@ -34,10 +34,16 @@ const WeOffer = () => {
               className={"border-none acording_header relative"}
             >
               <div className="flex items-center gap-8 lg:gap-[96px]">
-                <p className="text-[18px] leading-[26px] lg:text-[22px] text-secondery font-normal number_text transition-all duration-200">
+                <p
+                  className="text-[18px] leading-[26px] lg:text-[22px] text-secondery font-normal number_text transition-all
+                 duration-200"
+                >
                   01
                 </p>
-                <h2 className="text-third text-[30px] md:text-[40px] leading-[50px] font-bold lg:text-[64px] lg:leading-[76px] main_text transition-all duration-200">
+                <h2
+                  className="text-third text-[30px] md:text-[40px] leading-[50px] font-bold lg:text-[64px] lg:leading-[76px]
+                 main_text transition-all duration-200"
+                >
                   UX Design
                 </h2>
               </div>
@@ -60,7 +66,10 @@ const WeOffer = () => {
               </p>
               <div className="flex pt-5">
                 <Link href="#" className="flex items-center ">
-                  <h5 className="text-[16px] bg-secondery leading-[24px] font-semibold text-primary  py-[10px] px-6 rounded-[100px] tracking-[0.005em] transition-all duration-300 z-[5]">
+                  <h5
+                    className="text-[16px] bg-secondery leading-[24px] font-semibold text-primary 
+                   py-[10px] px-6 rounded-[100px] tracking-[0.005em] transition-all duration-300 z-[5]"
+                  >
                     Learn more
                   </h5>
                 </Link>
@@ -77,10 +86,16 @@ const WeOffer = () => {
               className={"border-none acording_header relative"}
             >
               <div className="flex items-center gap-8 lg:gap-[96px]">
-                <p className="text-[18px] leading-[26px] lg:text-[22px] text-secondery font-normal number_text transition-all duration-200">
+                <p
+                  className="text-[18px] leading-[26px] lg:text-[22px] text-secondery font-normal
+                 number_text transition-all duration-200"
+                >
                   02
                 </p>
-                <h2 className="text-third text-[30px] md:text-[40px] leading-[50px] font-bold lg:text-[64px] lg:leading-[76px] main_text transition-all duration-200">
+                <h2
+                  className="text-third text-[30px] md:text-[40px] leading-[50px] font-bold
+                 lg:text-[64px] lg:leading-[76px] main_text transition-all duration-200"
+                >
                   Branding
                 </h2>
               </div>
@@ -103,7 +118,10 @@ const WeOffer = () => {
               </p>
               <div className="flex pt-5">
                 <Link href="#" className="flex items-center ">
-                  <h5 className="text-[16px] bg-secondery leading-[24px] font-semibold text-primary  py-[10px] px-6 rounded-[100px] tracking-[0.005em] transition-all duration-300 z-[5]">
+                  <h5
+                    className="text-[16px] bg-secondery leading-[24px] font-semibold text-primary  
+                  py-[10px] px-6 rounded-[100px] tracking-[0.005em] transition-all duration-300 z-[5]"
+                  >
                     Learn more
                   </h5>
                 </Link>
@@ -120,10 +138,16 @@ const WeOffer = () => {
               className={"border-none acording_header relative"}
             >
               <div className="flex items-center gap-8 lg:gap-[96px]">
-                <p className="text-[18px] leading-[26px] lg:text-[22px] text-secondery font-normal number_text transition-all duration-200">
+                <p
+                  className="text-[18px] leading-[26px] lg:text-[22px] text-secondery font-normal
+                 number_text transition-all duration-200"
+                >
                   03
                 </p>
-                <h2 className="text-third text-[30px] md:text-[40px] leading-[50px] font-bold lg:text-[64px] lg:leading-[76px] main_text transition-all duration-200">
+                <h2
+                  className="text-third text-[30px] md:text-[40px] leading-[50px] font-bold
+                 lg:text-[64px] lg:leading-[76px] main_text transition-all duration-200"
+                >
                   Webflow
                 </h2>
               </div>
@@ -146,7 +170,10 @@ const WeOffer = () => {
               </p>
               <div className="flex pt-5">
                 <Link href="#" className="flex items-center ">
-                  <h5 className="text-[16px] bg-secondery leading-[24px] font-semibold text-primary  py-[10px] px-6 rounded-[100px] tracking-[0.005em] transition-all duration-300 z-[5]">
+                  <h5
+                    className="text-[16px] bg-secondery leading-[24px] font-semibold
+                   text-primary  py-[10px] px-6 rounded-[100px] tracking-[0.005em] transition-all duration-300 z-[5]"
+                  >
                     Learn more
                   </h5>
                 </Link>
@@ -163,10 +190,16 @@ const WeOffer = () => {
               className={"border-none acording_header relative"}
             >
               <div className="flex items-center gap-8 lg:gap-[96px]">
-                <p className="text-[18px] leading-[26px] lg:text-[22px] text-secondery font-normal number_text transition-all duration-200">
+                <p
+                  className="text-[18px] leading-[26px] lg:text-[22px] text-secondery
+                 font-normal number_text transition-all duration-200"
+                >
                   04
                 </p>
-                <h2 className="text-third text-[30px] md:text-[40px] leading-[50px] font-bold lg:text-[64px] lg:leading-[76px] main_text transition-all duration-200">
+                <h2
+                  className="text-third text-[30px] md:text-[40px] leading-[50px]
+                 font-bold lg:text-[64px] lg:leading-[76px] main_text transition-all duration-200"
+                >
                   SaaS Design
                 </h2>
               </div>
@@ -189,7 +222,10 @@ const WeOffer = () => {
               </p>
               <div className="flex pt-5">
                 <Link href="#" className="flex items-center ">
-                  <h5 className="text-[16px] bg-secondery leading-[24px] font-semibold text-primary  py-[10px] px-6 rounded-[100px] tracking-[0.005em] transition-all duration-300 z-[5]">
+                  <h5
+                    className="text-[16px] bg-secondery leading-[24px] font-semibold
+                   text-primary  py-[10px] px-6 rounded-[100px] tracking-[0.005em] transition-all duration-300 z-[5]"
+                  >
                     Learn more
                   </h5>
                 </Link>
@@ -206,10 +242,16 @@ const WeOffer = () => {
               className={"border-none acording_header relative"}
             >
               <div className="flex items-center gap-8 lg:gap-[96px]">
-                <p className="text-[18px] leading-[26px] lg:text-[22px] text-secondery font-normal number_text transition-all duration-200">
+                <p
+                  className="text-[18px] leading-[26px] lg:text-[22px] text-secondery
+                 font-normal number_text transition-all duration-200"
+                >
                   05
                 </p>
-                <h2 className="text-third text-[30px] md:text-[40px] leading-[50px] font-bold lg:text-[64px] lg:leading-[76px] main_text transition-all duration-200">
+                <h2
+                  className="text-third text-[30px] md:text-[40px] leading-[50px] 
+                font-bold lg:text-[64px] lg:leading-[76px] main_text transition-all duration-200"
+                >
                   Web Design
                 </h2>
               </div>
@@ -232,7 +274,10 @@ const WeOffer = () => {
               </p>
               <div className="flex pt-5">
                 <Link href="#" className="flex items-center ">
-                  <h5 className="text-[16px] bg-secondery leading-[24px] font-semibold text-primary  py-[10px] px-6 rounded-[100px] tracking-[0.005em] transition-all duration-300 z-[5]">
+                  <h5
+                    className="text-[16px] bg-secondery leading-[24px] font-semibold
+                   text-primary  py-[10px] px-6 rounded-[100px] tracking-[0.005em] transition-all duration-300 z-[5]"
+                  >
                     Learn more
                   </h5>
                 </Link>
