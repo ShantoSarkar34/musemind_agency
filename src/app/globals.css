@@ -69,7 +69,6 @@ video {
   clip-path: polygon(5% 10%, 100% 2%, 100% 98%, 5% 98%);
 }
 
-
 .about_link:hover .main_icon_div .icon_yellow {
   transform: translateY(40px);
 }
@@ -122,11 +121,10 @@ video {
 
 /* service we offer section start  */
 
-
-.acording_header:hover .number_text{
+.acording_header:hover .number_text {
   color: #7d7d82;
 }
-.acording_header:hover .main_text{
+.acording_header:hover .main_text {
   color: white;
 }
 

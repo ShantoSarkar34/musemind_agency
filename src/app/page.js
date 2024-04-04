@@ -7,6 +7,7 @@ import Weare from "@/components/Weare";
 import Footer from "@/components/Footer";
 import WeOffer from "@/components/WeOffer";
 import Blog from "@/components/Blog";
+import Contact from "@/components/Contact";
 
 export default function Home() {
   return (
@@ -14,10 +15,11 @@ export default function Home() {
       <Header />
       <Hero />
       <About />
-      <Weare/>
-      <WeOffer/>
-      <Blog/>
-      <Footer/>
+      <Weare />
+      <WeOffer />
+      <Blog />
+      <Contact />
+      <Footer />
     </>
   );
 }

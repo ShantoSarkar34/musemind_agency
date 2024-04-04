@@ -157,32 +157,32 @@ const Footer = () => {
             <Image
               src={footer_img_1}
               alt="footer_img"
-              className=" cursor-pointer"
+              className=" cursor-pointer w-[11.30rem] lg:w-[10.5rem]"
             />
             <Image
               src={footer_img_2}
               alt="footer_img"
-              className=" cursor-pointer"
+              className=" cursor-pointer "
             />
             <Image
               src={footer_img_3}
               alt="footer_img"
-              className=" cursor-pointer"
+              className=" cursor-pointer "
             />
             <Image
               src={footer_img_4}
               alt="footer_img"
-              className=" cursor-pointer"
+              className=" cursor-pointer "
             />
             <Image
               src={footer_img_5}
               alt="footer_img"
-              className=" cursor-pointer"
+              className=" cursor-pointer "
             />
             <Image
               src={footer_img_6}
               alt="footer_img"
-              className=" cursor-pointer"
+              className=" cursor-pointer "
             />
           </div>
         </div>
