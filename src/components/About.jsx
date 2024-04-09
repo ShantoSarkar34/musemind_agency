@@ -33,7 +33,7 @@ const About = () => {
                   <div className=" video-area lg:w-60 lg:h-20 skew-x-12 rotate-[5deg]">
                     <div className="video-embed w-embed">
                       <video
-                        className="wb-video-styles-controller w-60 h-12 md:h-16 lg:h-20"
+                        className="wb-video-styles-controller w-60 h-12 md:h-16 lg:h-20 cursor-pointer"
                         wb-embed="video"
                         poster="https://dl.dropboxusercontent.com/scl/fi/yz2cfjb1o83hnqy2eii4j/MM-reel.gif?rlkey=503tb1a2tqitpwhtcs28v6n6g&dl=0"
                         autoPlay="autoplay"
