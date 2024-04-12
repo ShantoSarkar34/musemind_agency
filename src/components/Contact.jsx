@@ -32,7 +32,7 @@ const Contact = () => {
                 type="name"
                 name="name"
                 placeholder="Jane Cooper"
-                className=" bg-transparent focus:outline-none border-b-[3px]  border-black focus:border-white h-11 text-[24px] lg:text-[26px] leading-[32px] placeholder:text-fourth"
+                className=" w-full bg-transparent focus:outline-none border-b-[3px]  border-black focus:border-white h-11 text-[24px] lg:text-[26px] leading-[32px] placeholder:text-fourth"
               />
             </div>
             <div className="grid gap-2 lg:grid-cols-2 lg:gap-x-[50px]">
@@ -45,7 +45,7 @@ const Contact = () => {
                   name="name"
                   placeholder="Ex. Tesla Inc
                 "
-                  className=" bg-transparent focus:outline-none border-b-[3px]  border-black focus:border-white h-11 text-[24px] lg:text-[26px] leading-[32px] placeholder:text-fourth"
+                  className="w-full bg-transparent focus:outline-none border-b-[3px]  border-black focus:border-white h-11 text-[24px] lg:text-[26px] leading-[32px] placeholder:text-fourth"
                 />
               </div>
               <div className="flex flex-col gap-2 lg:gap-4 mb-8">
@@ -57,7 +57,7 @@ const Contact = () => {
                   name="email"
                   placeholder="you@example.com
                 "
-                  className=" bg-transparent focus:outline-none border-b-[3px]  border-black focus:border-white h-11 text-[24px] lg:text-[26px] leading-[32px] placeholder:text-fourth"
+                  className="w-full bg-transparent focus:outline-none border-b-[3px]  border-black focus:border-white h-11 text-[24px] lg:text-[26px] leading-[32px] placeholder:text-fourth"
                 />
               </div>
             </div>
@@ -68,7 +68,7 @@ const Contact = () => {
                 </p>
                 <select
                   name="select"
-                  className=" bg-transparent focus:outline-none border-b-[3px]  border-black focus:border-white h-11 text-[24px] lg:text-[26px] leading-[32px] placeholder:text-fourth"
+                  className="w-full bg-transparent focus:outline-none border-b-[3px]  border-black focus:border-white h-11 text-[24px] lg:text-[26px] leading-[32px] placeholder:text-fourth"
                 >
                   <option value="1">Select Your Service</option>
                   <option value="2">UI/UX Design</option>
@@ -86,7 +86,7 @@ const Contact = () => {
                 </p>
                 <select
                   name="select"
-                  className=" bg-transparent focus:outline-none border-b-[3px]  border-black focus:border-white h-11 text-[24px] lg:text-[26px] leading-[32px] placeholder:text-fourth"
+                  className="w-full bg-transparent focus:outline-none border-b-[3px]  border-black focus:border-white h-11 text-[24px] lg:text-[26px] leading-[32px] placeholder:text-fourth"
                 >
                   <option value="1">Select Your Range</option>
                   <option value="2">$5K - $10K</option>
@@ -106,7 +106,7 @@ const Contact = () => {
                 rows="4"
                 placeholder="Tell us more about your idea
                 "
-                className=" bg-transparent focus:outline-none border-b-[3px]  border-black focus:border-white  text-[24px] lg:text-[26px] leading-[32px] placeholder:text-[#57595A]"
+                className="w-full bg-transparent focus:outline-none border-b-[3px]  border-black focus:border-white  text-[24px] lg:text-[26px] leading-[32px] placeholder:text-[#57595A]"
               />
             </div>
             <div className="flex pt-5 ">

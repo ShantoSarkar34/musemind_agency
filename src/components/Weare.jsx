@@ -5,8 +5,8 @@ const Weare = () => {
   return (
     <section className="bg-[#B6BFCC] py-20 w-full relative z-[98]">
       <div className=" container mx-auto px-4 ">
-        <div className=" ">
-          <div className="center-video w-[350px] md:w-[750px] lg:w-[910px]">
+        <div className="hidden md:block ">
+          <div className="center-video w-[320px] md:w-[750px] lg:w-[910px]">
             <div className="w-embed flex justify-center">
               <video
                 wb-embed="video"
@@ -15,7 +15,7 @@ const Weare = () => {
                 muted="muted"
                 playsInline="playsinline"
                 data-wf-ignore="true"
-                className=" align-baseline inline-block w-[100%] h-[100%] md:w-[80%]   lg:w-full lg:h-full "
+                className=" align-baseline inline-block w-[75%] h-[100%] md:w-[80%]   lg:w-full lg:h-full "
               >
                 <source
                   src="https://dl.dropboxusercontent.com/scl/fi/j5cxd5b9vn6lzbezamspd/animated.mov?rlkey=khouhq6opjlmju1vzpal6fqu6&dl=0"
@@ -26,7 +26,7 @@ const Weare = () => {
           </div>
         </div>
         <div className="flex flex-col">
-          <h1 className="ml-6 lg:ml-16 text-[65px] md:text-[80px] text-white lg:text-[200px] font-bold leading-[100%] z-[-1]">
+          <h1 className="ml-6 lg:ml-16 text-[45px] md:text-[80px] text-white lg:text-[200px] font-bold leading-[100%] z-[-1]">
             We are{" "}
           </h1>
           <div className="-mt-4 lg:-mt-6 grid grid-cols-2 md:grid-cols-5 gap-x-2 gap-y-3 lg:grid-cols-5 lg:gap-6">
@@ -86,7 +86,7 @@ const Weare = () => {
               </h2>
             </div>
           </div>
-          <h1 className="-mt-8 md:ml-6 lg:-mt-14 text-[55px] md:text-[80px] text-white lg:text-[200px] font-bold leading-[100%] z-[-1]">
+          <h1 className="-mt-8 md:ml-6 lg:-mt-14 text-[35px] md:text-[80px] text-white lg:text-[200px] font-bold leading-[100%] z-[-1]">
             Musemind{" "}
           </h1>
         </div>

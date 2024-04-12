@@ -387,7 +387,7 @@ const About = () => {
           </div>
           <div className="pt-10 lg:pt-20 flex justify-center">
             <Link href={"#"} className="flex items-center all_btn_main">
-              <h5 className="text-[17px] bg-secondery leading-[24px] font-semibold text-black  py-4 px-10 lg:px-7 rounded-[100px] tracking-[0.005em] transition-all duration-300 all_btn_content  z-[2]">
+              <h5 className=" md:text-[17px] bg-secondery leading-[24px] font-semibold text-black  py-4 px-10 lg:px-7 rounded-[100px] tracking-[0.005em] transition-all duration-300 all_btn_content  z-[2]">
                 View all cases
               </h5>
               <div className="bg-secondery p-[16px] rounded-[100px] all_icon transition-all duration-200">
