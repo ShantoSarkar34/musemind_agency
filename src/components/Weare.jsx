@@ -26,7 +26,7 @@ const Weare = () => {
           </div>
         </div>
         <div className="flex flex-col">
-          <h1 className="ml-6 lg:ml-16 text-[45px] md:text-[80px] text-white lg:text-[200px] font-bold leading-[100%] z-[-1]">
+          <h1 className="ml-6 lg:ml-16 text-[55px] md:text-[80px] text-white lg:text-[200px] font-bold leading-[100%] z-[-1]">
             We are{" "}
           </h1>
           <div className="-mt-4 lg:-mt-6 grid grid-cols-2 md:grid-cols-5 gap-x-2 gap-y-3 lg:grid-cols-5 lg:gap-6">
@@ -86,7 +86,7 @@ const Weare = () => {
               </h2>
             </div>
           </div>
-          <h1 className="-mt-8 md:ml-6 lg:-mt-14 text-[35px] md:text-[80px] text-white lg:text-[200px] font-bold leading-[100%] z-[-1]">
+          <h1 className="-mt-8 md:ml-6 lg:-mt-14 text-[55px] md:text-[80px] text-white lg:text-[200px] font-bold leading-[100%] z-[-1]">
             Musemind{" "}
           </h1>
         </div>
