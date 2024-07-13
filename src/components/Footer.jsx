@@ -31,7 +31,7 @@ const Footer = () => {
               simple, human-centered digital products for future.
             </p>
             <div className="flex lg:pt-7">
-              <Link href="#" className="flex items-center btn_main">
+              <Link href="/contact" className="flex items-center btn_main">
                 <h5 className="text-[16px] bg-secondery leading-[24px] font-semibold text-primary  py-[10px] px-6 rounded-[100px] tracking-[0.005em] transition-all duration-300 btn_content z-[5]">
                   Contact us
                 </h5>

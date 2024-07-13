@@ -7,7 +7,8 @@ import {
   IconButton,
 } from "@material-tailwind/react";
 import Image from "next/image";
-import Logo_1 from "../app/img/logo_black.svg";
+import Logo_1 from "../../app/img/footer_logo.svg";
+// import footer_logo from "../app/img/footer_logo.svg";
 // import { Link } from "react-scroll";
 import Link from "next/link";
 import { GiCrossedSwords } from "react-icons/gi";
@@ -15,7 +16,7 @@ import { RiMenu3Fill } from "react-icons/ri";
 import { RxCross2 } from "react-icons/rx";
 import { GoArrowRight } from "react-icons/go";
 
-export default function Header() {
+export default function ServiceHeader() {
   const [scroll, setScroll] = useState(false);
 
   useEffect(() => {
@@ -48,36 +49,42 @@ export default function Header() {
       className="mb-4 mt-2 flex flex-col gap-5 lg:mb-0
      lg:mt-0 lg:flex-row lg:items-center lg:gap-6 "
     >
-      <Link href={"/services"}
-        className=" text-[#231f1e] text-[22px]  lg:text-[16px] leading-[24px] font-medium tracking-[0.01em] lg:tracking-[0em] cursor-pointer hover:text-third transition-all duration-200 flex items-center gap-2 justify-center"
+      <Link
+        href={"/services"}
+        className=" text-white text-[22px]  lg:text-[16px] leading-[24px] font-medium tracking-[0.01em] lg:tracking-[0em] cursor-pointer hover:text-third transition-all duration-200 flex items-center gap-2 justify-center"
       >
         <p>Service</p>
         <div className="bg-white rounded-full ">
-          <GoArrowRight className="rotate-[90deg] text-lg" />
+          <GoArrowRight className="rotate-[90deg] text-lg text-black" />
         </div>
       </Link>
-      <Link href={"/"}
-        className=" text-black text-[22px]  lg:text-[16px] leading-[24px] font-medium tracking-[0.01em] lg:tracking-[0em] cursor-pointer hover:text-third transition-all duration-200"
+      <Link
+        href={"/"}
+        className=" text-white text-[22px]  lg:text-[16px] leading-[24px] font-medium tracking-[0.01em] lg:tracking-[0em] cursor-pointer hover:text-third transition-all duration-200"
       >
         <p>About us</p>
       </Link>
-      <Link href={"/"}
-        className=" text-black text-[22px]  lg:text-[16px] leading-[24px] font-medium tracking-[0.01em] lg:tracking-[0em] cursor-pointer hover:text-third transition-all duration-200"
+      <Link
+        href={"/"}
+        className=" text-white text-[22px]  lg:text-[16px] leading-[24px] font-medium tracking-[0.01em] lg:tracking-[0em] cursor-pointer hover:text-third transition-all duration-200"
       >
         <p>Work</p>
       </Link>
-      <Link href={"/"}
-        className=" text-black text-[22px]  lg:text-[16px] leading-[24px] font-medium tracking-[0.01em] lg:tracking-[0em] cursor-pointer hover:text-third transition-all duration-200"
+      <Link
+        href={"/"}
+        className=" text-white text-[22px]  lg:text-[16px] leading-[24px] font-medium tracking-[0.01em] lg:tracking-[0em] cursor-pointer hover:text-third transition-all duration-200"
       >
         <p>Our Process</p>
       </Link>
-      <Link href={"/"}
-        className=" text-black text-[22px]  lg:text-[16px] leading-[24px] font-medium tracking-[0.01em] lg:tracking-[0em] cursor-pointer hover:text-third transition-all duration-200"
+      <Link
+        href={"/"}
+        className=" text-white text-[22px]  lg:text-[16px] leading-[24px] font-medium tracking-[0.01em] lg:tracking-[0em] cursor-pointer hover:text-third transition-all duration-200"
       >
         <p>Career</p>
       </Link>
-      <Link href={"/"}
-        className=" text-black text-[22px]  lg:text-[16px] leading-[24px] font-medium tracking-[0.01em] lg:tracking-[0em] cursor-pointer hover:text-third transition-all duration-200"
+      <Link
+        href={"/"}
+        className=" text-white text-[22px]  lg:text-[16px] leading-[24px] font-medium tracking-[0.01em] lg:tracking-[0em] cursor-pointer hover:text-third transition-all duration-200"
       >
         <p>Blog</p>
       </Link>
@@ -88,7 +95,7 @@ export default function Header() {
     <Navbar
       id="header"
       className={`bg- w-full py-3 lg:py-5 border-none transition-all duration-300 fixed shadow-none  z-50 max-w-full rounded-none${
-        scroll ? " bg-bg shadow-sm" : "bg-transparent"
+        scroll ? " bg-primary shadow-sm" : "bg-transparent"
       }`}
     >
       <div className="flex items-center container mx-auto px-4  justify-between text-blue-gray-900">

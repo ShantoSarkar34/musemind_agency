@@ -37,7 +37,7 @@ const Hero = () => {
               Brands redefine experiences and empower business growth.
             </p>
             <div className="pt-10 lg:pt-0 flex flex-col gap-8 lg:flex-row lg:items-center lg:gap-10">
-              <Link href={"#"} className="flex items-center all_btn_main">
+              <Link href={"/contact"} className="flex items-center all_btn_main">
                 <p className="text-[17px] bg-secondery leading-[24px] font-semibold text-primary  py-4 px-10 lg:px-7 rounded-[100px] tracking-[0.005em] transition-all duration-300 all_btn_content ">
                   Contact us
                 </p>
