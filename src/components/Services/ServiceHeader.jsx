@@ -65,7 +65,7 @@ export default function ServiceHeader() {
         <p>About us</p>
       </Link>
       <Link
-        href={"/"}
+        href={"/work"}
         className=" text-white text-[22px]  lg:text-[16px] leading-[24px] font-medium tracking-[0.01em] lg:tracking-[0em] cursor-pointer hover:text-third transition-all duration-200"
       >
         <p>Work</p>

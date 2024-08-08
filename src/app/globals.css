@@ -159,3 +159,10 @@ video {
   background-size: cover;
   background-repeat: no-repeat;
 }
+.work_bg_main {
+  background-image: linear-gradient(to bottom, #231f1e15, #101010),
+    url(../app/img/service/service_bg_main.webp);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
