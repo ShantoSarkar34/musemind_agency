@@ -20,7 +20,7 @@ const Hero = () => {
           className=" inline-block"
         >
           <source
-            src="https://dl.dropboxusercontent.com/scl/fi/a69viihvame63zwynb439/banner-animation.mov?rlkey=sv6x2wqpttun0jya9zk33rae3&dl=0"
+            src="https://uiart.io/video/banner-animation.mov"
             type="video/webm"
           />
         </video>

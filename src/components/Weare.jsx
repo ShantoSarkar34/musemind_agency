@@ -18,7 +18,7 @@ const Weare = () => {
                 className=" align-baseline inline-block w-[75%] h-[100%] md:w-[80%]   lg:w-full lg:h-full "
               >
                 <source
-                  src="https://dl.dropboxusercontent.com/scl/fi/j5cxd5b9vn6lzbezamspd/animated.mov?rlkey=khouhq6opjlmju1vzpal6fqu6&dl=0"
+                  src="https://uiart.io/video/animated.mov"
                   type="video/webm"
                 />
               </video>

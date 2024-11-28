@@ -43,7 +43,7 @@ const About = () => {
                         data-wf-ignore="true"
                       >
                         <source
-                          src="https://dl.dropboxusercontent.com/scl/fi/r4eg9op6gp4ukg01maqjb/main_showreel.mp4?rlkey=kwhglvzllwvbt6t6f2xq60acn&dl=0"
+                          src="https://uiart.io/video/main_showreel.mp4"
                           type="video/mp4"
                         />
                       </video>
