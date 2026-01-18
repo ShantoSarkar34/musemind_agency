@@ -245,11 +245,11 @@ const Footer = () => {
             </p>
             <div>
               <Link
-                href={"https://shantosarkar9070.vercel.app/"}
+                href={"https://shanto9070.vercel.app/"}
                 target="blank"
                 className="text-[#a1a1a6] text-[15px]  leading-[100%] font-medium hover:text-secondery hover:underline hover:underline-offset-2"
               >
-                Shanto9070
+                Md. Shanto Sarkar
               </Link>
             </div>
           </div>
