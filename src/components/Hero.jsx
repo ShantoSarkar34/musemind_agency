@@ -7,8 +7,8 @@ import { GoArrowRight } from "react-icons/go";
 
 const Hero = () => {
   return (
-    <section className="bg-[#D6DCE1] w-full pb-[84px] relative ">
-      <div className=" absolute  max-w-[740px] text-right top-[0%] bottom-auto left-auto right-[0%] z-[1]">
+    <section className="bg-[#DEE1E4] w-full relative ">
+      <div className=" absolute  max-w-[100%] h-[500px] lg:h-[900px] text-right top-[0%] bottom-auto left-auto right-[0%] z-[1]">
         <video
           rel="preload"
           width="100%"
@@ -20,12 +20,13 @@ const Hero = () => {
           className=" inline-block"
         >
           <source
-            src="https://uiart.io/video/banner-animation.mov"
+            // src="https://uiart.io/video/banner-animation.mov"
+            src="https://uiart.io/video/SEQ.webm"
             type="video/webm"
           />
         </video>
       </div>
-      <div className="bg-[#D6DCE1] w-full">
+      <div className="bg-[#D6DCE1] w-full pb-10 md:pb-20 lg:pb-[84px]">
         <div className="z-[2] relative container mx-auto px-4">
           <div className="  pt-[183px] flex flex-col gap-6 lg:gap-[60px]">
             <h1 class=" max-w-[1000px] text-[50px] leading-[64px] md:text-[60px] lg:text-[100px] lg:leading-[106%] md:leading-[74px] text-primary font-bold">
@@ -45,11 +46,11 @@ const Hero = () => {
                   <GoArrowRight className="rotate-[-45deg] text-xl" />
                 </div>
               </Link>
-              <div className="flex items-center gap-2">
+              <div className="flex items-center gap-2 ">
                 <div className="bg-white rounded-full p-2">
                   <Image src={icon} alt="icon" />
                 </div>
-                <div className="">
+                <div className="   ">
                   <div className="flex items-center gap-[9px]">
                     <h4 className="text-[24px] font-semibold leading-[130%]">
                       5.0

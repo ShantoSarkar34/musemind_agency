@@ -88,7 +88,7 @@ export default function Header() {
     <Navbar
       id="header"
       className={`bg- w-full py-3 lg:py-5 border-none transition-all duration-300 fixed shadow-none  z-50 max-w-full rounded-none${
-        scroll ? " bg-bg shadow-sm" : "bg-transparent"
+        scroll ? " bg-[#ebedf0] shadow-sm" : "bg-transparent"
       }`}
     >
       <div className="flex items-center container mx-auto px-4  justify-between text-blue-gray-900">
